@@ -1,0 +1,37 @@
+{
+  "name": "checkout-calendar-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon './server/index.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCBK-airbnb/checkout-calendar-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCBK-airbnb/checkout-calendar-proxy/issues"
+  },
+  "homepage": "https://github.com/JCBK-airbnb/checkout-calendar-proxy#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
