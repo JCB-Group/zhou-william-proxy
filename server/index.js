@@ -2,8 +2,8 @@ const express = require('express');
 var httpProxy = require('http-proxy');
 var apiProxy = httpProxy.createProxyServer();
 const port = 3000;
-const serverOne = 'http://localhost:3001',
-      serverTwo = 'http://localhost:3002';
+const serverOne = 'http://172.17.0.4:3001',
+      serverTwo = 'http://172.17.0.3:3002';
 
 express()
     .use(express.static('public'))
