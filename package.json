@@ -27,7 +27,7 @@
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-proxy": "^1.17.0",
     "live-server": "^1.2.1",
     "nodemon": "^1.19.1",
